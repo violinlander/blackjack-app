@@ -1,0 +1,58 @@
+
+/* Title section */
+.title {
+    font-family: 'Courier New', Courier, monospace;
+}
+#subtitle{
+    font-size: .5rem;
+    margin-top: 1rem;
+}
+h2 {
+    font-size: .7em;
+}
+.button{
+    display: inline;
+    margin-top: .5%;
+}
+#game-stats{
+    border: 1px solid green;
+    width: fit-content;
+    padding-right: 2em;
+}
+#money{
+    display:inline;
+}
+#money-left{
+    display: inline;
+}
+#bet-amount{
+    display: inline;
+}
+
+
+/* Card section */
+.card {
+    display: inline-block;
+    position: relative;
+    align-items:flex-start;
+    width: 2rem;
+    height: 4rem;
+    border: 1px solid red;  
+    border-radius: 5%;
+    vertical-align: top;
+    margin: .5em;
+}
+.backside{
+    display: inline-block;
+    position: relative;
+    align-items:flex-start;
+    width: 2rem;
+    height: 4rem;
+    border: 1px solid lime;  
+    border-radius: 6%;
+    vertical-align: top;
+    background-color: black;
+    margin: .5em;
+
+
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blackjack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Title Section: (ends at horizontal rule)-->
+  <div class="title">
+    <h1 id="title">Blackjack</h1>
+    <h2 id="subtitle">by Brian Hemen</h2>
+    <hr>
+  </div>
+
+  <!-- Money left -->
+  <div id="game-stats">
+  <div id="money">Money: <div id="money-left">5000</div></div>
+  <div id="bet">Bet: <div id="bet-amount">0</div> </div>
+  </div>  
+
+  <!--Cards:-->
+  <h2>Dealer's Hand: <div id='dealer-total'></div></h2>
+  <div id="dealer-hand">
+
+  </div>
+
+  
+  <hr>
+<h2>Player's Hand: <div id="player-total"></div></h2>
+  <div id="player-hand">
+
+  </div>
+
+  <hr><hr>
+
+  <input id='bet-field' type="text" value='' placeholder="Enter bet amount"/>
+  <input id='submit-bet-button' type="button" value="Place Bet" />
+  <hr>
+  <input class='button' id='hit-button' type="button" value='hit' />
+  <input class='button' id="stand-button" type="button" value='stand' />
+  <!-- <input class='button' id="double-button" type="button" value='double down' /> -->
+  <script src="index.js"></script>
+</body>
+
+</html>
